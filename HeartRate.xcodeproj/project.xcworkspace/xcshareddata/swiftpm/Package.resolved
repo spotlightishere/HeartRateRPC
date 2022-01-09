@@ -18,6 +18,15 @@
           "revision": "844cfdaffa18aa84fb1c6396697ebe1e68478a17",
           "version": null
         }
+      },
+      {
+        "package": "SwordRPC",
+        "repositoryURL": "https://owo.codes/projects-in-disarray/platform-bots/SwordRPC",
+        "state": {
+          "branch": "master",
+          "revision": "890c3a90ab75c292c5be342bbc09935cd1b1c48b",
+          "version": null
+        }
       }
     ]
   },
