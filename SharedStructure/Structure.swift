@@ -7,6 +7,6 @@
 
 import Foundation
 
-class HeartRateStruct: Codable {
+struct HeartRateStruct: Codable {
     var rate: Double = 0.0
 }
