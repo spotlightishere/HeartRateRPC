@@ -11,19 +11,19 @@ import SwiftUI
 
 struct ContentView: View {
     let handler = Handler()
-    
+
     var body: some View {
         Text("Siphoning heart rate...")
             .padding()
-            .onAppear {                
+            .onAppear {
                 let allTypes = Set([HKObjectType.quantityType(forIdentifier: .heartRate)!])
-                
-                handler.healthStore.requestAuthorization(toShare: allTypes, read: allTypes) { (success, error) in
+
+                handler.healthStore.requestAuthorization(toShare: allTypes, read: allTypes) { success, _ in
                     if !success {
                         print("WHY DID YOU DO THAT")
                     }
                 }
-                
+
                 handler.setup()
             }
     }

@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct HeartRateApp: App {    
+struct HeartRateApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
