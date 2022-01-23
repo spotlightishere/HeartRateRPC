@@ -563,18 +563,18 @@
 /* Begin XCRemoteSwiftPackageReference section */
 		425A5F0A278AB5550072EB0B /* XCRemoteSwiftPackageReference "SwordRPC" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://owo.codes/projects-in-disarray/platform-bots/SwordRPC";
+			repositoryURL = "https://github.com/spotlightishere/SwordRPC";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
 			};
 		};
 		425B4431278A9D6900149894 /* XCRemoteSwiftPackageReference "MultipeerKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/insidegui/MultipeerKit";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
