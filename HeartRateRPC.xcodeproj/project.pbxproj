@@ -8,40 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		4207E9AF278AA4B600FD0DC0 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4207E9AE278AA4B600FD0DC0 /* Handler.swift */; };
-		425A5F0C278AB58E0072EB0B /* SwordRPC in Frameworks */ = {isa = PBXBuildFile; productRef = 425A5F0B278AB58E0072EB0B /* SwordRPC */; };
 		425B4411278A9D0F00149894 /* HeartRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B4410278A9D0F00149894 /* HeartRateApp.swift */; };
 		425B4413278A9D0F00149894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B4412278A9D0F00149894 /* ContentView.swift */; };
 		425B4415278A9D1000149894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B4414278A9D1000149894 /* Assets.xcassets */; };
 		425B4418278A9D1000149894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B4417278A9D1000149894 /* Preview Assets.xcassets */; };
-		425B4425278A9D2100149894 /* HeartRateRPCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B4424278A9D2100149894 /* HeartRateRPCApp.swift */; };
-		425B4427278A9D2100149894 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B4426278A9D2100149894 /* ContentView.swift */; };
-		425B4429278A9D2200149894 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B4428278A9D2200149894 /* Assets.xcassets */; };
-		425B442C278A9D2200149894 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425B442B278A9D2200149894 /* Preview Assets.xcassets */; };
 		425B4433278A9D6900149894 /* MultipeerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 425B4432278A9D6900149894 /* MultipeerKit */; };
 		425B4436278A9D9500149894 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B4435278A9D9500149894 /* Structure.swift */; };
-		425B4437278A9D9500149894 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425B4435278A9D9500149894 /* Structure.swift */; };
 		425B443C278A9F8400149894 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425B443B278A9F8400149894 /* HealthKit.framework */; };
-		425B443F278AA30600149894 /* MultipeerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 425B443E278AA30600149894 /* MultipeerKit */; };
+		4276FA0F279DCA7000875C33 /* SwordRPC in Frameworks */ = {isa = PBXBuildFile; platformFilter = maccatalyst; productRef = 4276FA0E279DCA7000875C33 /* SwordRPC */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4207E9AE278AA4B600FD0DC0 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
-		425B440D278A9D0F00149894 /* HeartRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425B440D278A9D0F00149894 /* HeartRateRPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateRPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425B4410278A9D0F00149894 /* HeartRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateApp.swift; sourceTree = "<group>"; };
 		425B4412278A9D0F00149894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		425B4414278A9D1000149894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		425B4417278A9D1000149894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		425B4422278A9D2100149894 /* HeartRateRPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateRPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		425B4424278A9D2100149894 /* HeartRateRPCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateRPCApp.swift; sourceTree = "<group>"; };
-		425B4426278A9D2100149894 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		425B4428278A9D2200149894 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		425B442B278A9D2200149894 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		425B442D278A9D2200149894 /* HeartRateRPC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartRateRPC.entitlements; sourceTree = "<group>"; };
 		425B4435278A9D9500149894 /* Structure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
 		425B4438278A9E7D00149894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		425B4439278A9F8400149894 /* HeartRate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeartRate.entitlements; sourceTree = "<group>"; };
 		425B443B278A9F8400149894 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		425B443D278AA2D100149894 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4276FA10279DCF0100875C33 /* SwordRPC */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SwordRPC; path = ../../macOS/SwordRPC; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +37,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4276FA0F279DCA7000875C33 /* SwordRPC in Frameworks */,
 				425B4433278A9D6900149894 /* MultipeerKit in Frameworks */,
 				425B443C278A9F8400149894 /* HealthKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		425B441F278A9D2100149894 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				425A5F0C278AB58E0072EB0B /* SwordRPC in Frameworks */,
-				425B443F278AA30600149894 /* MultipeerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,10 +49,9 @@
 		425B4404278A9D0F00149894 = {
 			isa = PBXGroup;
 			children = (
+				4276FA10279DCF0100875C33 /* SwordRPC */,
 				42693F80278AA99700486394 /* Packages */,
-				425B4434278A9D8500149894 /* SharedStructure */,
 				425B440F278A9D0F00149894 /* HeartRate */,
-				425B4423278A9D2100149894 /* HeartRateRPC */,
 				425B440E278A9D0F00149894 /* Products */,
 				425B443A278A9F8400149894 /* Frameworks */,
 			);
@@ -81,8 +60,7 @@
 		425B440E278A9D0F00149894 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				425B440D278A9D0F00149894 /* HeartRate.app */,
-				425B4422278A9D2100149894 /* HeartRateRPC.app */,
+				425B440D278A9D0F00149894 /* HeartRateRPC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +75,7 @@
 				425B4414278A9D1000149894 /* Assets.xcassets */,
 				425B4416278A9D1000149894 /* Preview Content */,
 				4207E9AE278AA4B600FD0DC0 /* Handler.swift */,
+				425B4435278A9D9500149894 /* Structure.swift */,
 			);
 			path = HeartRate;
 			sourceTree = "<group>";
@@ -107,35 +86,6 @@
 				425B4417278A9D1000149894 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		425B4423278A9D2100149894 /* HeartRateRPC */ = {
-			isa = PBXGroup;
-			children = (
-				425B443D278AA2D100149894 /* Info.plist */,
-				425B4424278A9D2100149894 /* HeartRateRPCApp.swift */,
-				425B4426278A9D2100149894 /* ContentView.swift */,
-				425B4428278A9D2200149894 /* Assets.xcassets */,
-				425B442D278A9D2200149894 /* HeartRateRPC.entitlements */,
-				425B442A278A9D2200149894 /* Preview Content */,
-			);
-			path = HeartRateRPC;
-			sourceTree = "<group>";
-		};
-		425B442A278A9D2200149894 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				425B442B278A9D2200149894 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		425B4434278A9D8500149894 /* SharedStructure */ = {
-			isa = PBXGroup;
-			children = (
-				425B4435278A9D9500149894 /* Structure.swift */,
-			);
-			path = SharedStructure;
 			sourceTree = "<group>";
 		};
 		425B443A278A9F8400149894 /* Frameworks */ = {
@@ -156,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		425B440C278A9D0F00149894 /* HeartRate */ = {
+		425B440C278A9D0F00149894 /* HeartRateRPC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 425B441B278A9D1000149894 /* Build configuration list for PBXNativeTarget "HeartRate" */;
+			buildConfigurationList = 425B441B278A9D1000149894 /* Build configuration list for PBXNativeTarget "HeartRateRPC" */;
 			buildPhases = (
 				425B4409278A9D0F00149894 /* Sources */,
 				425B440A278A9D0F00149894 /* Frameworks */,
@@ -168,33 +118,13 @@
 			);
 			dependencies = (
 			);
-			name = HeartRate;
-			packageProductDependencies = (
-				425B4432278A9D6900149894 /* MultipeerKit */,
-			);
-			productName = HeartRate;
-			productReference = 425B440D278A9D0F00149894 /* HeartRate.app */;
-			productType = "com.apple.product-type.application";
-		};
-		425B4421278A9D2100149894 /* HeartRateRPC */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 425B442E278A9D2200149894 /* Build configuration list for PBXNativeTarget "HeartRateRPC" */;
-			buildPhases = (
-				425B441E278A9D2100149894 /* Sources */,
-				425B441F278A9D2100149894 /* Frameworks */,
-				425B4420278A9D2100149894 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
 			name = HeartRateRPC;
 			packageProductDependencies = (
-				425B443E278AA30600149894 /* MultipeerKit */,
-				425A5F0B278AB58E0072EB0B /* SwordRPC */,
+				425B4432278A9D6900149894 /* MultipeerKit */,
+				4276FA0E279DCA7000875C33 /* SwordRPC */,
 			);
-			productName = HeartRateRPC;
-			productReference = 425B4422278A9D2100149894 /* HeartRateRPC.app */;
+			productName = HeartRate;
+			productReference = 425B440D278A9D0F00149894 /* HeartRateRPC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,12 +140,9 @@
 					425B440C278A9D0F00149894 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					425B4421278A9D2100149894 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
 				};
 			};
-			buildConfigurationList = 425B4408278A9D0F00149894 /* Build configuration list for PBXProject "HeartRate" */;
+			buildConfigurationList = 425B4408278A9D0F00149894 /* Build configuration list for PBXProject "HeartRateRPC" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,8 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				425B440C278A9D0F00149894 /* HeartRate */,
-				425B4421278A9D2100149894 /* HeartRateRPC */,
+				425B440C278A9D0F00149894 /* HeartRateRPC */,
 			);
 		};
 /* End PBXProject section */
@@ -248,15 +174,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		425B4420278A9D2100149894 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				425B442C278A9D2200149894 /* Preview Assets.xcassets in Resources */,
-				425B4429278A9D2200149894 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -268,16 +185,6 @@
 				425B4411278A9D0F00149894 /* HeartRateApp.swift in Sources */,
 				4207E9AF278AA4B600FD0DC0 /* Handler.swift in Sources */,
 				425B4436278A9D9500149894 /* Structure.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		425B441E278A9D2100149894 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				425B4427278A9D2100149894 /* ContentView.swift in Sources */,
-				425B4425278A9D2100149894 /* HeartRateRPCApp.swift in Sources */,
-				425B4437278A9D9500149894 /* Structure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +335,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = space.joscomputing.HeartRate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -462,76 +370,17 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = space.joscomputing.HeartRate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		425B442F278A9D2200149894 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HeartRateRPC/HeartRateRPC.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HeartRateRPC/Preview Content\"";
-				DEVELOPMENT_TEAM = NP873NYDVX;
-				ENABLE_HARDENED_RUNTIME = NO;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HeartRateRPC/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = space.joscomputing.HeartRateRPC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		425B4430278A9D2200149894 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = HeartRateRPC/HeartRateRPC.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HeartRateRPC/Preview Content\"";
-				DEVELOPMENT_TEAM = NP873NYDVX;
-				ENABLE_HARDENED_RUNTIME = NO;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HeartRateRPC/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = space.joscomputing.HeartRateRPC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		425B4408278A9D0F00149894 /* Build configuration list for PBXProject "HeartRate" */ = {
+		425B4408278A9D0F00149894 /* Build configuration list for PBXProject "HeartRateRPC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				425B4419278A9D1000149894 /* Debug */,
@@ -540,20 +389,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		425B441B278A9D1000149894 /* Build configuration list for PBXNativeTarget "HeartRate" */ = {
+		425B441B278A9D1000149894 /* Build configuration list for PBXNativeTarget "HeartRateRPC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				425B441C278A9D1000149894 /* Debug */,
 				425B441D278A9D1000149894 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		425B442E278A9D2200149894 /* Build configuration list for PBXNativeTarget "HeartRateRPC" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				425B442F278A9D2200149894 /* Debug */,
-				425B4430278A9D2200149894 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -580,20 +420,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		425A5F0B278AB58E0072EB0B /* SwordRPC */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 425A5F0A278AB5550072EB0B /* XCRemoteSwiftPackageReference "SwordRPC" */;
-			productName = SwordRPC;
-		};
 		425B4432278A9D6900149894 /* MultipeerKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 425B4431278A9D6900149894 /* XCRemoteSwiftPackageReference "MultipeerKit" */;
 			productName = MultipeerKit;
 		};
-		425B443E278AA30600149894 /* MultipeerKit */ = {
+		4276FA0E279DCA7000875C33 /* SwordRPC */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 425B4431278A9D6900149894 /* XCRemoteSwiftPackageReference "MultipeerKit" */;
-			productName = MultipeerKit;
+			package = 425A5F0A278AB5550072EB0B /* XCRemoteSwiftPackageReference "SwordRPC" */;
+			productName = SwordRPC;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

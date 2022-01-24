@@ -16,6 +16,8 @@ struct ContentView: View {
         Text("Siphoning heart rate...")
             .padding()
             .onAppear {
+                #if !targetEnvironment(macCatalyst)
+                // Ensure we can authorize for HealthKit.
                 let allTypes = Set([HKObjectType.quantityType(forIdentifier: .heartRate)!])
 
                 handler.healthStore.requestAuthorization(toShare: allTypes, read: allTypes) { success, _ in
@@ -23,6 +25,9 @@ struct ContentView: View {
                         print("WHY DID YOU DO THAT")
                     }
                 }
+                #endif
+                
+                print(NSTemporaryDirectory())
 
                 handler.setup()
             }

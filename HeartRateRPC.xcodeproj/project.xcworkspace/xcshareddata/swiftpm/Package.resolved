@@ -18,15 +18,6 @@
           "revision": "51c3fc2e4a0fcdf4a25089b288dd65b73df1b0ef",
           "version": "2.37.0"
         }
-      },
-      {
-        "package": "SwordRPC",
-        "repositoryURL": "https://github.com/spotlightishere/SwordRPC",
-        "state": {
-          "branch": null,
-          "revision": "87e66f9f5783b3ec9467a296a1b94e32482b39b4",
-          "version": "0.3.0"
-        }
       }
     ]
   },
